@@ -613,7 +613,7 @@ const styles: { [key: string]: React.CSSProperties } = {
   centerBox: { textAlign: 'center' as const, padding: '20px 0' },
   primaryButton: { width: '100%', backgroundColor: '#6366f1', color: '#ffffff', border: 'none', padding: '12px', borderRadius: '6px', fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', transition: 'opacity 0.2s' },
   header: { display: 'flex', justifyContent: 'space-between', marginBottom: '15px', alignItems: 'center' },
-  
+
   // FIX CONTROLS: Standard flow layout framework utilizing static spacer blocks 
   anchoredQuizMainWrapperFrameBox: { display: 'flex', flexDirection: 'column' },
   questionFixedContainer: { minHeight: '56px', display: 'flex', alignItems: 'center', marginBottom: '10px', textAlign: 'left' as const },
